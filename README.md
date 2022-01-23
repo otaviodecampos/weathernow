@@ -16,9 +16,9 @@ Esse projeto foi desenvolvido utilizando o framework Angular.
 
 ● Sass
 
-● Não foram utilizadas dependência externas
+● Não foram utilizadas dependências externas
 
-● Todos as especificações implementadas
+● Todos especificações implementadas
 
 ● Layout fiel ao mockup (web e mobile)
 
@@ -49,3 +49,18 @@ ng serve
 ## Para rodar os testes
 
 ng test
+
+## Imagens
+
+#### Day Desktop
+![Day Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/1.PNG "Day Desktop")
+
+#### Day Mobile
+![Day Mobile](https://github.com/otaviodecampos/weathernow/raw/master/screens/1a.PNG "Day Mobile")
+
+#### Dark Desktop
+![Dark Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/2.PNG "Dark Desktop")
+
+#### Dark Mobile
+![Day Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/2a.PNG "Dark Mobile")
+
