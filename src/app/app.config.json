@@ -2,6 +2,6 @@
   "apiUrl": "https://api.openweathermap.org/data/2.5/weather",
   "apiUnits": "metric",
   "apiKey": "1fdd7c70b6538f4fed1675d9a3580c4c",
-  "refreshIntervalInMinutes": 1,
-  "cacheTimeInMinutes": 1
+  "refreshIntervalInMinutes": 10,
+  "cacheTimeInMinutes": 10
 }
