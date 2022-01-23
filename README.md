@@ -51,12 +51,16 @@ ng serve
 ng test
 
 ## Imagens
-####Day Desktop
+
+Day Desktop
 ![Day Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/1.PNG "Day Desktop")
-####Day Mobile
+
+Day Mobile
 ![Day Mobile](https://github.com/otaviodecampos/weathernow/raw/master/screens/1a.PNG "Day Mobile")
-####Dark Desktop
+
+Dark Desktop
 ![Dark Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/2.PNG "Dark Desktop")
-####Dark Mobile
+
+Dark Mobile
 ![Day Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/2a.PNG "Dark Mobile")
 
