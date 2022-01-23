@@ -10,6 +10,8 @@ Esse projeto foi desenvolvido utilizando o framework Angular.
 
 ● Testes automatizados
 
+● Cobertura completa
+
 ● Angular
 
 ● Sass
