@@ -49,3 +49,7 @@ ng serve
 ## Para rodar os testes
 
 ng test
+
+## Imagens
+
+![Day Desktop](https://github.com/otaviodecampos/weathernow/raw/master/screens/1.PNG "Day Desktop")
