@@ -52,7 +52,7 @@ describe('WeatherCardComponent', () => {
     discardPeriodicTasks();
   }));
 
-  it('should get red color when temperature minor 5', fakeAsync(() => {
+  it('should get blue color when temperature minor 5', fakeAsync(() => {
     const weatherData = {main: {temp: 4}} as WeatherDataModel;
 
     weatherServiceSpy.getDataByCityName.and.returnValue(of(weatherData));
@@ -72,7 +72,7 @@ describe('WeatherCardComponent', () => {
     discardPeriodicTasks();
   }));
 
-  it('should get red color when temperature equal 5', fakeAsync(() => {
+  it('should get blue color when temperature equal 5', fakeAsync(() => {
     const weatherData = {main: {temp: 5}} as WeatherDataModel;
 
     weatherServiceSpy.getDataByCityName.and.returnValue(of(weatherData));
