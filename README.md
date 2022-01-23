@@ -16,9 +16,9 @@ Esse projeto foi desenvolvido utilizando o framework Angular.
 
 ● Sass
 
-● Não foram utilizadas dependência externas
+● Não foram utilizadas dependências externas
 
-● Todos as especificações implementadas
+● Todos especificações implementadas
 
 ● Layout fiel ao mockup (web e mobile)
 
