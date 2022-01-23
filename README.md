@@ -40,7 +40,7 @@ Instalar o nodejs
 
 npm install -g @angular/cli
 
-####Na pasta raiz do projeto:
+#### Na pasta raiz do projeto:
 
 npm install
 
