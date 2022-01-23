@@ -1,0 +1,72 @@
+<div class="weather-card__title">
+  {{ cityName }}
+</div>
+
+<ng-container *ngIf="weatherData$ | async as weatherData else loadingOrError">
+
+  <div class="weather-card__content text text--big color color--{{getTemperatureColor(weatherData.main.temp)}}">
+    {{ weatherData.main.temp | number:'1.0-0' }}
+    <span class="celsius-symbol">º</span>
+  </div>
+
+  <div class="weather-card__footer">
+    <div class="weather-card-details" *ngIf="showDetails">
+
+      <div class="weather-card-detail weather-card-detail--humidity">
+        <div class="weather-card-detail__title">
+          Humidity
+        </div>
+        <div class="weather-card-detail__content">
+          <span class="text text--medium">
+            {{ weatherData.main.humidity }}
+          </span>
+          <span class="weather-card-detail__unit text text--small">
+            %
+          </span>
+        </div>
+      </div>
+
+      <div class="weather-card-detail weather-card-detail--pressure">
+        <div class="weather-card-detail__title">
+          Pressure
+        </div>
+        <div class="weather-card-detail__content">
+          <span class="text text--medium">
+            {{ weatherData.main.pressure }}
+          </span>
+          <span class="weather-card-detail__unit text text--small">
+            hPa
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <small class="weather-card-updated text text--small">
+      Updated at {{ weatherData.dt * 1000 | date:'mediumTime' }}
+    </small>
+
+  </div>
+</ng-container>
+
+<ng-template #loadingOrError>
+  <ng-container *ngIf="error; else loading">
+    <div class="weather-card__content weather-card__content--error">
+      <span class="text text--medium color color--red">
+        Something went wrong
+      </span>
+      <app-button class="try-again-button" (click)="updateWeatherData()">
+        Try Again
+      </app-button>
+    </div>
+  </ng-container>
+</ng-template>
+
+<ng-template #loading>
+  <div class="weather-card__content">
+    <img alt="Loading"
+      src="assets/card/loader.svg"
+      class="weather-card-loader"
+      width="50"
+      height="50">
+  </div>
+</ng-template>

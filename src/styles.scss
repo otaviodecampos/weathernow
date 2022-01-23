@@ -1,0 +1,14 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  font-family: 'Public Sans', Helvetica Neue, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+@import "scss/helper/color";
+@import "scss/helper/text";
+@import "scss/theme/day";
+@import "scss/theme/dark";

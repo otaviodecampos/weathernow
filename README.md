@@ -1,27 +1,46 @@
 # WeatherNow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+Esse projeto foi desenvolvido utilizado o framework Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+● HTML semântico
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+● Testes automatizados
 
-## Build
+● Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+● Sass
 
-## Running unit tests
+● Não foram utilizadas dependência externas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+● Todos os requisitos atendidos
 
-## Running end-to-end tests
+● Layout fiel ao mockup (web e mobile)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+● Clean Code, SOLID, DRY, arquitetura baseada em componentes
 
-## Further help
+● Adicionado tema escuro
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Versões
+- Angular 13.1.0
+- NodeJs 16.13.2
+
+## Relatório de Cobertura de Testes
+
+Abrir o arquivo coverage/weather-now/index.html.
+
+## Para rodar o projeto em um servidor de desenvolvimento
+
+npm install -g @angular/cli
+
+####Na pasta raiz do projeto:
+
+npm install
+
+ng serve
+
+## Para rodar os testes
+
+ng test

@@ -1,0 +1,36 @@
+@import "src/scss/helper/flex";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .app__header {
+    background: var(--header-bg);
+    border-bottom: 2px solid var(--header-border-color);
+    min-height: 48px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    @extend %flex-center;
+  }
+
+  .header_logo {
+    height: 20px;
+    flex: 1;
+  }
+
+  .header_theme-change-icon {
+    padding: 10px 14px;
+    margin-left: -52px;
+    cursor: pointer;
+  }
+
+  .app__content {
+    flex: 1;
+    padding: 30px;
+    background: var(--content-bg);
+    @extend %flex-center;
+  }
+
+}
