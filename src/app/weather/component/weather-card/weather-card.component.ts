@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input, OnChanges, OnDestroy, SimpleChanges, ViewEncapsulation } from '@angular/core';
 import { WeatherService } from '@app/weather/service/weather.service';
 import { WeatherDataModel } from '@app/weather/model/weather-data.model';
-import { catchError, merge, Observable, of, Subject, takeUntil, tap, throwError, timer } from 'rxjs';
+import { catchError, merge, Observable, of, Subject, takeUntil, tap, timer } from 'rxjs';
 import { minutesToMilliseconds } from '@app/common/function/time';
 import config from '@app/app.config.json';
 import { TemperatureColorEnum } from '@app/weather/enum/temperature-color.enum';
