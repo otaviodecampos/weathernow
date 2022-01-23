@@ -1,6 +1,6 @@
 # WeatherNow
 
-Esse projeto foi desenvolvido utilizado o framework Angular.
+Esse projeto foi desenvolvido utilizando o framework Angular.
 
 [Demo](https://otaviodecampos.github.io/weathernow)
 
@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido utilizado o framework Angular.
 
 ● Clean Code, SOLID, DRY, arquitetura baseada em componentes
 
-● Adicionado tema escuro
+● Tema escuro
 
 ## Versões
 - Angular 13.1.0
