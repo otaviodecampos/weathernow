@@ -2,6 +2,7 @@
 
 Esse projeto foi desenvolvido utilizado o framework Angular.
 
+[Demo](https://otaviodecampos.github.io/weathernow)
 
 ## Características
 
@@ -15,7 +16,7 @@ Esse projeto foi desenvolvido utilizado o framework Angular.
 
 ● Não foram utilizadas dependência externas
 
-● Todos os requisitos atendidos
+● Todos as especificações implementadas
 
 ● Layout fiel ao mockup (web e mobile)
 
@@ -29,9 +30,11 @@ Esse projeto foi desenvolvido utilizado o framework Angular.
 
 ## Relatório de Cobertura de Testes
 
-Abrir o arquivo coverage/weather-now/index.html.
+Abrir o arquivo coverage/weather-now/index.html
 
 ## Para rodar o projeto em um servidor de desenvolvimento
+
+Instalar o nodejs
 
 npm install -g @angular/cli
 
