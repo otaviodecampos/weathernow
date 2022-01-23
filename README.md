@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido utilizando o framework Angular.
 
 ● Não foram utilizadas dependências externas
 
-● Todos especificações implementadas
+● Todas especificações implementadas
 
 ● Layout fiel ao mockup (web e mobile)
 
