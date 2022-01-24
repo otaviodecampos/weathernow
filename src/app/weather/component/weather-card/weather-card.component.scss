@@ -80,7 +80,9 @@
   }
 
   &-detail__unit {
-    padding-top: 2px;
+    display: inline-block;
+    align-self: flex-end;
+    line-height: 15px;
   }
 
 }
